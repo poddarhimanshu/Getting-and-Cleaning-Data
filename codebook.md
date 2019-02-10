@@ -1,7 +1,6 @@
 This is a code book that describes the variables, the data.
-The transforation applied can be found in the README.md file.
+The transformation applied can be found in the README.md file.
 
-<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
 Data
 ====
@@ -67,400 +66,400 @@ values, normalised and bounded within \[-1,1\].
 <td align="center">Activity recorded: WALKING, WALKING UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyAccelerometer-mean()-X]</strong></td>
+<td align="left"><strong>[tBodyAcc-mean()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for body acceleration on X axis</td>
+<td align="center">t domain, Average of means for body acceleration on X axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyAccelerometer-mean()-Y]</strong></td>
+<td align="left"><strong>[tBodyAcc-mean()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for body acceleration on Y axis</td>
+<td align="center">t domain, Average of means for body acceleration on Y axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyAccelerometer-mean()-Z]</strong></td>
+<td align="left"><strong>[tBodyAcc-mean()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for body acceleration on Z axis</td>
+<td align="center">t domain, Average of means for body acceleration on Z axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyAccelerometer-std()-X]</strong></td>
+<td align="left"><strong>[tBodyAcc-std()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for body acceleration on X axis</td>
+<td align="center">t domain, Average of standard deviations for body acceleration on X axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyAccelerometer-std()-Y]</strong></td>
+<td align="left"><strong>[tBodyAcc-std()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for body acceleration on Y axis</td>
+<td align="center">t domain, Average of standard deviations for body acceleration on Y axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyAccelerometer-std()-Z]</strong></td>
+<td align="left"><strong>[tBodyAcc-std()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for body acceleration on Z axis</td>
+<td align="center">t domain, Average of standard deviations for body acceleration on Z axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeGravityAccelerometer-mean()-X]</strong></td>
+<td align="left"><strong>[tGravityAcc-mean()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for gravity acceleration on X axis</td>
+<td align="center">t domain, Average of means for gravity acceleration on X axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeGravityAccelerometer-mean()-Y]</strong></td>
+<td align="left"><strong>[tGravityAcc-mean()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for gravity acceleration on Y axis</td>
+<td align="center">t domain, Average of means for gravity acceleration on Y axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeGravityAccelerometer-mean()-Z]</strong></td>
+<td align="left"><strong>[tGravityAcc-mean()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for gravity acceleration on Z axis</td>
+<td align="center">t domain, Average of means for gravity acceleration on Z axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeGravityAccelerometer-std()-X]</strong></td>
+<td align="left"><strong>[tGravityAcc-std()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for gravity acceleration on X axis</td>
+<td align="center">t domain, Average of standard deviations for gravity acceleration on X axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeGravityAccelerometer-std()-Y]</strong></td>
+<td align="left"><strong>[tGravityAcc-std()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for gravity acceleration on Y axis</td>
+<td align="center">t domain, Average of standard deviations for gravity acceleration on Y axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeGravityAccelerometer-std()-Z]</strong></td>
+<td align="left"><strong>[tGravityAcc-std()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for gravity acceleration on Z axis</td>
+<td align="center">t domain, Average of standard deviations for gravity acceleration on Z axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyAccelerometerJerk-mean()-X]</strong></td>
+<td align="left"><strong>[tBodyAccJerk-mean()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for jerk of body acceleration on X axis</td>
+<td align="center">t domain, Average of means for jerk of body acceleration on X axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyAccelerometerJerk-mean()-Y]</strong></td>
+<td align="left"><strong>[tBodyAccJerk-mean()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for jerk of body acceleration on Y axis</td>
+<td align="center">t domain, Average of means for jerk of body acceleration on Y axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyAccelerometerJerk-mean()-Z]</strong></td>
+<td align="left"><strong>[tBodyAccJerk-mean()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for jerk of body acceleration on Z axis</td>
+<td align="center">t domain, Average of means for jerk of body acceleration on Z axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyAccelerometerJerk-std()-X]</strong></td>
+<td align="left"><strong>[tBodyAccJerk-std()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for jerk of body acceleration on X axis</td>
+<td align="center">t domain, Average of standard deviations for jerk of body acceleration on X axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyAccelerometerJerk-std()-Y]</strong></td>
+<td align="left"><strong>[tBodyAccJerk-std()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for jerk of body acceleration on Y axis</td>
+<td align="center">t domain, Average of standard deviations for jerk of body acceleration on Y axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyAccelerometerJerk-std()-Z]</strong></td>
+<td align="left"><strong>[tBodyAccJerk-std()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for jerk of body acceleration on Z axis</td>
+<td align="center">t domain, Average of standard deviations for jerk of body acceleration on Z axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyGyroscope-mean()-X]</strong></td>
+<td align="left"><strong>[tBodyGyro-mean()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for angular velocity on X axis</td>
+<td align="center">t domain, Average of means for angular velocity on X axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyGyroscope-mean()-Y]</strong></td>
+<td align="left"><strong>[tBodyGyro-mean()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for angular velocity on Y axis</td>
+<td align="center">t domain, Average of means for angular velocity on Y axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyGyroscope-mean()-Z]</strong></td>
+<td align="left"><strong>[tBodyGyro-mean()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for angular velocity on Z axis</td>
+<td align="center">t domain, Average of means for angular velocity on Z axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyGyroscope-std()-X]</strong></td>
+<td align="left"><strong>[tBodyGyro-std()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for angular velocity on X axis</td>
+<td align="center">t domain, Average of standard deviations for angular velocity on X axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyGyroscope-std()-Y]</strong></td>
+<td align="left"><strong>[tBodyGyro-std()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for angular velocity on Y axis</td>
+<td align="center">t domain, Average of standard deviations for angular velocity on Y axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyGyroscope-std()-Z]</strong></td>
+<td align="left"><strong>[tBodyGyro-std()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for angular velocity on Z axis</td>
+<td align="center">t domain, Average of standard deviations for angular velocity on Z axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyGyroscopeJerk-mean()-X]</strong></td>
+<td align="left"><strong>[tBodyGyroJerk-mean()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for jerk of angular velocity on X axis</td>
+<td align="center">t domain, Average of means for jerk of angular velocity on X axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyGyroscopeJerk-mean()-Y]</strong></td>
+<td align="left"><strong>[tBodyGyroJerk-mean()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for jerk of angular velocity on Y axis</td>
+<td align="center">t domain, Average of means for jerk of angular velocity on Y axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyGyroscopeJerk-mean()-Z]</strong></td>
+<td align="left"><strong>[tBodyGyroJerk-mean()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for jerk of angular velocity on Z axis</td>
+<td align="center">t domain, Average of means for jerk of angular velocity on Z axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyGyroscopeJerk-std()-X]</strong></td>
+<td align="left"><strong>[tBodyGyroJerk-std()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for jerk of angular velocity on X axis</td>
+<td align="center">t domain, Average of standard deviations for jerk of angular velocity on X axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyGyroscopeJerk-std()-Y]</strong></td>
+<td align="left"><strong>[tBodyGyroJerk-std()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for jerk of angular velocity on Y axis</td>
+<td align="center">t domain, Average of standard deviations for jerk of angular velocity on Y axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyGyroscopeJerk-std()-Z]</strong></td>
+<td align="left"><strong>[tBodyGyroJerk-std()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for jerk of angular velocity on Z axis</td>
+<td align="center">t domain, Average of standard deviations for jerk of angular velocity on Z axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyAccelerometerMagnitude-mean()]</strong></td>
+<td align="left"><strong>[tBodyAccMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for the magnitude of body acceleration</td>
+<td align="center">t domain, Average of means for the Mag of body acceleration</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyAccelerometerMagnitude-std()]</strong></td>
+<td align="left"><strong>[tBodyAccMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for the magnitude of body acceleration</td>
+<td align="center">t domain, Average of standard deviations for the Mag of body acceleration</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeGravityAccelerometerMagnitude-mean()]</strong></td>
+<td align="left"><strong>[tGravityAccMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for the magnitude of gravity acceleration</td>
+<td align="center">t domain, Average of means for the Mag of gravity acceleration</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeGravityAccelerometerMagnitude-std()]</strong></td>
+<td align="left"><strong>[tGravityAccMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for the magnitude of gravity acceleration</td>
+<td align="center">t domain, Average of standard deviations for the Mag of gravity acceleration</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyAccelerometerJerkMagnitude-mean()]</strong></td>
+<td align="left"><strong>[tBodyAccJerkMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for the magnitude of jerk of body accelaration</td>
+<td align="center">t domain, Average of means for the Mag of jerk of body accelaration</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyAccelerometerJerkMagnitude-std()]</strong></td>
+<td align="left"><strong>[tBodyAccJerkMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for the magnitude of jerk of body accelaration</td>
+<td align="center">t domain, Average of standard deviations for the Mag of jerk of body accelaration</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyGyroscopeMagnitude-mean()]</strong></td>
+<td align="left"><strong>[tBodyGyroMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for the magnitude of angular velocity</td>
+<td align="center">t domain, Average of means for the Mag of angular velocity</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyGyroscopeMagnitude-std()]</strong></td>
+<td align="left"><strong>[tBodyGyroMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for the magnitude of angular velocity</td>
+<td align="center">t domain, Average of standard deviations for the Mag of angular velocity</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[timeBodyGyroscopeJerkMagnitude-mean()]</strong></td>
+<td align="left"><strong>[tBodyGyroJerkMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of means for the magnitude of jerk of the angular velocity</td>
+<td align="center">t domain, Average of means for the Mag of jerk of the angular velocity</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[timeBodyGyroscopeJerkMagnitude-std()]</strong></td>
+<td align="left"><strong>[tBodyGyroJerkMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Time domain, Average of standard deviations for the magnitude of jerk of the angular velocity</td>
+<td align="center">t domain, Average of standard deviations for the Mag of jerk of the angular velocity</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyAccelerometer-mean()-X]</strong></td>
+<td align="left"><strong>[fBodyAcc-mean()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for body acceleration on X axis</td>
+<td align="center">f domain, Average of means for body acceleration on X axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyAccelerometer-mean()-Y]</strong></td>
+<td align="left"><strong>[fBodyAcc-mean()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for body acceleration on Y axis</td>
+<td align="center">f domain, Average of means for body acceleration on Y axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyAccelerometer-mean()-Z]</strong></td>
+<td align="left"><strong>[fBodyAcc-mean()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for body acceleration on Z axis</td>
+<td align="center">f domain, Average of means for body acceleration on Z axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyAccelerometer-std()-X]</strong></td>
+<td align="left"><strong>[fBodyAcc-std()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for body acceleration on X axis</td>
+<td align="center">f domain, Average of standard deviations for body acceleration on X axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyAccelerometer-std()-Y]</strong></td>
+<td align="left"><strong>[fBodyAcc-std()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for body acceleration on Y axis</td>
+<td align="center">f domain, Average of standard deviations for body acceleration on Y axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyAccelerometer-std()-Z]</strong></td>
+<td align="left"><strong>[fBodyAcc-std()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for body acceleration on Z axis</td>
+<td align="center">f domain, Average of standard deviations for body acceleration on Z axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyAccelerometerJerk-mean()-X]</strong></td>
+<td align="left"><strong>[fBodyAccJerk-mean()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the jerk of the body acceleration on X axis</td>
+<td align="center">f domain, Average of means for the jerk of the body acceleration on X axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyAccelerometerJerk-mean()-Y]</strong></td>
+<td align="left"><strong>[fBodyAccJerk-mean()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the jerk of the body acceleration on Y axis</td>
+<td align="center">f domain, Average of means for the jerk of the body acceleration on Y axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyAccelerometerJerk-mean()-Z]</strong></td>
+<td align="left"><strong>[fBodyAccJerk-mean()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the jerk of the body acceleration on Z axis</td>
+<td align="center">f domain, Average of means for the jerk of the body acceleration on Z axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyAccelerometerJerk-std()-X]</strong></td>
+<td align="left"><strong>[fBodyAccJerk-std()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the jerk of the body acceleration on X axis</td>
+<td align="center">f domain, Average of standard deviations for the jerk of the body acceleration on X axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyAccelerometerJerk-std()-Y]</strong></td>
+<td align="left"><strong>[fBodyAccJerk-std()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the jerk of the body acceleration on Y axis</td>
+<td align="center">f domain, Average of standard deviations for the jerk of the body acceleration on Y axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyAccelerometerJerk-std()-Z]</strong></td>
+<td align="left"><strong>[fBodyAccJerk-std()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the jerk of the body acceleration on Z axis</td>
+<td align="center">f domain, Average of standard deviations for the jerk of the body acceleration on Z axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyGyroscope-mean()-X]</strong></td>
+<td align="left"><strong>[fBodyGyro-mean()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the jerk of angular velocity on X axis</td>
+<td align="center">f domain, Average of means for the jerk of angular velocity on X axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyGyroscope-mean()-Y]</strong></td>
+<td align="left"><strong>[fBodyGyro-mean()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the jerk of angular velocity on Y axis</td>
+<td align="center">f domain, Average of means for the jerk of angular velocity on Y axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyGyroscope-mean()-Z]</strong></td>
+<td align="left"><strong>[fBodyGyro-mean()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the jerk of angular velocity on Z axis</td>
+<td align="center">f domain, Average of means for the jerk of angular velocity on Z axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyGyroscope-std()-X]</strong></td>
+<td align="left"><strong>[fBodyGyro-std()-X]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the jerk of angular velocity on X axis</td>
+<td align="center">f domain, Average of standard deviations for the jerk of angular velocity on X axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyGyroscope-std()-Y]</strong></td>
+<td align="left"><strong>[fBodyGyro-std()-Y]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the jerk of angular velocity on Y axis</td>
+<td align="center">f domain, Average of standard deviations for the jerk of angular velocity on Y axis</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyGyroscope-std()-Z]</strong></td>
+<td align="left"><strong>[fBodyGyro-std()-Z]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the jerk of angular velocity on Z axis</td>
+<td align="center">f domain, Average of standard deviations for the jerk of angular velocity on Z axis</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyAccelerometerMagnitude-mean()]</strong></td>
+<td align="left"><strong>[fBodyAccMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the magnitude of body acceleration</td>
+<td align="center">f domain, Average of means for the Mag of body acceleration</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyAccelerometerMagnitude-std()]</strong></td>
+<td align="left"><strong>[fBodyAccMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the magnitude of body acceleration</td>
+<td align="center">f domain, Average of standard deviations for the Mag of body acceleration</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyAccelerometerJerkMagnitude-mean()]</strong></td>
+<td align="left"><strong>[fBodyAccJerkMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the magnitude of jerk of body acceleration</td>
+<td align="center">f domain, Average of means for the Mag of jerk of body acceleration</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyAccelerometerJerkMagnitude-std()]</strong></td>
+<td align="left"><strong>[fBodyAccJerkMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the magnitude of jerk of body acceleration</td>
+<td align="center">f domain, Average of standard deviations for the Mag of jerk of body acceleration</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyGyroscopeMagnitude-mean()]</strong></td>
+<td align="left"><strong>[fBodyGyroMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the magnitude of angular velocity</td>
+<td align="center">f domain, Average of means for the Mag of angular velocity</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyGyroscopeMagnitude-std()]</strong></td>
+<td align="left"><strong>[fBodyGyroMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviations for the magnitude of angular velocity</td>
+<td align="center">f domain, Average of standard deviations for the Mag of angular velocity</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>[frequencyBodyGyroscopeJerkMagnitude-mean()]</strong></td>
+<td align="left"><strong>[fBodyGyroJerkMag-mean()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of means for the magnitude of jerk, of angular velocity</td>
+<td align="center">f domain, Average of means for the Mag of jerk, of angular velocity</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>[frequencyBodyGyroscopeJerkMagnitude-std()]</strong></td>
+<td align="left"><strong>[fBodyGyroJerkMag-std()]</strong></td>
 <td align="left">numeric</td>
 <td align="right">180</td>
-<td align="center">Frequency domain, Average of standard deviation for the magnitude of jerk, of angular velocity</td>
+<td align="center">f domain, Average of standard deviation for the Mag of jerk, of angular velocity</td>
 </tr>
 </tbody>
 </table>
