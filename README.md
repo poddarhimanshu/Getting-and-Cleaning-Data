@@ -30,7 +30,7 @@ After the operation our "Activity" column contains the labelelled activity for e
 ### Question 5
 We use aggregate function to form a tidy dataset that contains the average of each variable for each activity and each subject.
 
-## How to run the code foile
+## How to run the code file
 
 Markup : 
 * Download the zip file
