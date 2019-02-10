@@ -32,7 +32,8 @@ We use aggregate function to form a tidy dataset that contains the average of ea
 
 ## How to run the code foile
 
-Markup : * Download the zip file
+Markup : 
+* Download the zip file
 * Chek for the paths for each of the dataset.
 * Run each of the lines one by one.
 * The results are stored in their respective variable names.
